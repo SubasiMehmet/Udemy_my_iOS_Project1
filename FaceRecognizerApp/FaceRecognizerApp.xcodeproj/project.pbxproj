@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85BA49F27C134A500B47250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BA49E27C134A500B47250 /* AppDelegate.swift */; };
+		B85BA4A127C134A500B47250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BA4A027C134A500B47250 /* SceneDelegate.swift */; };
+		B85BA4A327C134A500B47250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BA4A227C134A500B47250 /* ViewController.swift */; };
+		B85BA4A627C134A500B47250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85BA4A427C134A500B47250 /* Main.storyboard */; };
+		B85BA4A927C134A500B47250 /* FaceRecognizerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B85BA4A727C134A500B47250 /* FaceRecognizerApp.xcdatamodeld */; };
+		B85BA4AB27C134A600B47250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85BA4AA27C134A600B47250 /* Assets.xcassets */; };
+		B85BA4AE27C134A600B47250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85BA4AC27C134A600B47250 /* LaunchScreen.storyboard */; };
+		B85BA4B927C134A600B47250 /* FaceRecognizerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BA4B827C134A600B47250 /* FaceRecognizerAppTests.swift */; };
+		B85BA4C427C134A600B47250 /* FaceRecognizerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85BA4C327C134A600B47250 /* FaceRecognizerAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B85BA4B527C134A600B47250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85BA49327C134A500B47250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85BA49A27C134A500B47250;
+			remoteInfo = FaceRecognizerApp;
+		};
+		B85BA4C027C134A600B47250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85BA49327C134A500B47250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85BA49A27C134A500B47250;
+			remoteInfo = FaceRecognizerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B85BA49B27C134A500B47250 /* FaceRecognizerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceRecognizerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85BA49E27C134A500B47250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B85BA4A027C134A500B47250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B85BA4A227C134A500B47250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B85BA4A527C134A500B47250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B85BA4A827C134A500B47250 /* FaceRecognizerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceRecognizerApp.xcdatamodel; sourceTree = "<group>"; };
+		B85BA4AA27C134A600B47250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B85BA4AD27C134A600B47250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B85BA4AF27C134A600B47250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85BA4B427C134A600B47250 /* FaceRecognizerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceRecognizerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85BA4B827C134A600B47250 /* FaceRecognizerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognizerAppTests.swift; sourceTree = "<group>"; };
+		B85BA4BA27C134A600B47250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85BA4BF27C134A600B47250 /* FaceRecognizerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceRecognizerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85BA4C327C134A600B47250 /* FaceRecognizerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognizerAppUITests.swift; sourceTree = "<group>"; };
+		B85BA4C527C134A600B47250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B85BA49827C134A500B47250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85BA4B127C134A600B47250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85BA4BC27C134A600B47250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B85BA49227C134A500B47250 = {
+			isa = PBXGroup;
+			children = (
+				B85BA49D27C134A500B47250 /* FaceRecognizerApp */,
+				B85BA4B727C134A600B47250 /* FaceRecognizerAppTests */,
+				B85BA4C227C134A600B47250 /* FaceRecognizerAppUITests */,
+				B85BA49C27C134A500B47250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B85BA49C27C134A500B47250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B85BA49B27C134A500B47250 /* FaceRecognizerApp.app */,
+				B85BA4B427C134A600B47250 /* FaceRecognizerAppTests.xctest */,
+				B85BA4BF27C134A600B47250 /* FaceRecognizerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B85BA49D27C134A500B47250 /* FaceRecognizerApp */ = {
+			isa = PBXGroup;
+			children = (
+				B85BA49E27C134A500B47250 /* AppDelegate.swift */,
+				B85BA4A027C134A500B47250 /* SceneDelegate.swift */,
+				B85BA4A227C134A500B47250 /* ViewController.swift */,
+				B85BA4A427C134A500B47250 /* Main.storyboard */,
+				B85BA4AA27C134A600B47250 /* Assets.xcassets */,
+				B85BA4AC27C134A600B47250 /* LaunchScreen.storyboard */,
+				B85BA4AF27C134A600B47250 /* Info.plist */,
+				B85BA4A727C134A500B47250 /* FaceRecognizerApp.xcdatamodeld */,
+			);
+			path = FaceRecognizerApp;
+			sourceTree = "<group>";
+		};
+		B85BA4B727C134A600B47250 /* FaceRecognizerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B85BA4B827C134A600B47250 /* FaceRecognizerAppTests.swift */,
+				B85BA4BA27C134A600B47250 /* Info.plist */,
+			);
+			path = FaceRecognizerAppTests;
+			sourceTree = "<group>";
+		};
+		B85BA4C227C134A600B47250 /* FaceRecognizerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B85BA4C327C134A600B47250 /* FaceRecognizerAppUITests.swift */,
+				B85BA4C527C134A600B47250 /* Info.plist */,
+			);
+			path = FaceRecognizerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B85BA49A27C134A500B47250 /* FaceRecognizerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85BA4C827C134A600B47250 /* Build configuration list for PBXNativeTarget "FaceRecognizerApp" */;
+			buildPhases = (
+				B85BA49727C134A500B47250 /* Sources */,
+				B85BA49827C134A500B47250 /* Frameworks */,
+				B85BA49927C134A500B47250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceRecognizerApp;
+			productName = FaceRecognizerApp;
+			productReference = B85BA49B27C134A500B47250 /* FaceRecognizerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B85BA4B327C134A600B47250 /* FaceRecognizerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85BA4CB27C134A600B47250 /* Build configuration list for PBXNativeTarget "FaceRecognizerAppTests" */;
+			buildPhases = (
+				B85BA4B027C134A600B47250 /* Sources */,
+				B85BA4B127C134A600B47250 /* Frameworks */,
+				B85BA4B227C134A600B47250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85BA4B627C134A600B47250 /* PBXTargetDependency */,
+			);
+			name = FaceRecognizerAppTests;
+			productName = FaceRecognizerAppTests;
+			productReference = B85BA4B427C134A600B47250 /* FaceRecognizerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B85BA4BE27C134A600B47250 /* FaceRecognizerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85BA4CE27C134A600B47250 /* Build configuration list for PBXNativeTarget "FaceRecognizerAppUITests" */;
+			buildPhases = (
+				B85BA4BB27C134A600B47250 /* Sources */,
+				B85BA4BC27C134A600B47250 /* Frameworks */,
+				B85BA4BD27C134A600B47250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85BA4C127C134A600B47250 /* PBXTargetDependency */,
+			);
+			name = FaceRecognizerAppUITests;
+			productName = FaceRecognizerAppUITests;
+			productReference = B85BA4BF27C134A600B47250 /* FaceRecognizerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B85BA49327C134A500B47250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = MSUBASI;
+				TargetAttributes = {
+					B85BA49A27C134A500B47250 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B85BA4B327C134A600B47250 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B85BA49A27C134A500B47250;
+					};
+					B85BA4BE27C134A600B47250 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B85BA49A27C134A500B47250;
+					};
+				};
+			};
+			buildConfigurationList = B85BA49627C134A500B47250 /* Build configuration list for PBXProject "FaceRecognizerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B85BA49227C134A500B47250;
+			productRefGroup = B85BA49C27C134A500B47250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B85BA49A27C134A500B47250 /* FaceRecognizerApp */,
+				B85BA4B327C134A600B47250 /* FaceRecognizerAppTests */,
+				B85BA4BE27C134A600B47250 /* FaceRecognizerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B85BA49927C134A500B47250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85BA4AE27C134A600B47250 /* LaunchScreen.storyboard in Resources */,
+				B85BA4AB27C134A600B47250 /* Assets.xcassets in Resources */,
+				B85BA4A627C134A500B47250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85BA4B227C134A600B47250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85BA4BD27C134A600B47250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B85BA49727C134A500B47250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85BA4A327C134A500B47250 /* ViewController.swift in Sources */,
+				B85BA49F27C134A500B47250 /* AppDelegate.swift in Sources */,
+				B85BA4A927C134A500B47250 /* FaceRecognizerApp.xcdatamodeld in Sources */,
+				B85BA4A127C134A500B47250 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85BA4B027C134A600B47250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85BA4B927C134A600B47250 /* FaceRecognizerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85BA4BB27C134A600B47250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85BA4C427C134A600B47250 /* FaceRecognizerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B85BA4B627C134A600B47250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85BA49A27C134A500B47250 /* FaceRecognizerApp */;
+			targetProxy = B85BA4B527C134A600B47250 /* PBXContainerItemProxy */;
+		};
+		B85BA4C127C134A600B47250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85BA49A27C134A500B47250 /* FaceRecognizerApp */;
+			targetProxy = B85BA4C027C134A600B47250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B85BA4A427C134A500B47250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85BA4A527C134A500B47250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B85BA4AC27C134A600B47250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85BA4AD27C134A600B47250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B85BA4C627C134A600B47250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B85BA4C727C134A600B47250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B85BA4C927C134A600B47250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = FaceRecognizerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.FaceRecognizerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B85BA4CA27C134A600B47250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = FaceRecognizerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.FaceRecognizerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B85BA4CC27C134A600B47250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = FaceRecognizerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.FaceRecognizerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceRecognizerApp.app/FaceRecognizerApp";
+			};
+			name = Debug;
+		};
+		B85BA4CD27C134A600B47250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = FaceRecognizerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.FaceRecognizerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceRecognizerApp.app/FaceRecognizerApp";
+			};
+			name = Release;
+		};
+		B85BA4CF27C134A600B47250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = FaceRecognizerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.FaceRecognizerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceRecognizerApp;
+			};
+			name = Debug;
+		};
+		B85BA4D027C134A600B47250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = FaceRecognizerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.FaceRecognizerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceRecognizerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B85BA49627C134A500B47250 /* Build configuration list for PBXProject "FaceRecognizerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85BA4C627C134A600B47250 /* Debug */,
+				B85BA4C727C134A600B47250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85BA4C827C134A600B47250 /* Build configuration list for PBXNativeTarget "FaceRecognizerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85BA4C927C134A600B47250 /* Debug */,
+				B85BA4CA27C134A600B47250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85BA4CB27C134A600B47250 /* Build configuration list for PBXNativeTarget "FaceRecognizerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85BA4CC27C134A600B47250 /* Debug */,
+				B85BA4CD27C134A600B47250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85BA4CE27C134A600B47250 /* Build configuration list for PBXNativeTarget "FaceRecognizerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85BA4CF27C134A600B47250 /* Debug */,
+				B85BA4D027C134A600B47250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B85BA4A727C134A500B47250 /* FaceRecognizerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B85BA4A827C134A500B47250 /* FaceRecognizerApp.xcdatamodel */,
+			);
+			currentVersion = B85BA4A827C134A500B47250 /* FaceRecognizerApp.xcdatamodel */;
+			path = FaceRecognizerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B85BA49327C134A500B47250 /* Project object */;
+}
