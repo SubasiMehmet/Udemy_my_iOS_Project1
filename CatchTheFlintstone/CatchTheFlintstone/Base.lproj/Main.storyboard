@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchTheFlintstone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="vzy-rG-VQk">
+                                <rect key="frame" x="20" y="147" width="118" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="xj4-nk-vOt"/>
+                                    <constraint firstAttribute="height" constant="134" id="yWO-TS-vV4"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="EeI-IC-d0c">
+                                <rect key="frame" x="154" y="147" width="118" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="0Yt-rK-ChP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="z3e-vq-tV2">
+                                <rect key="frame" x="276" y="147" width="118" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="PyF-75-r4G">
+                                <rect key="frame" x="19" y="381" width="118" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="134" id="SIe-Qz-mx8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="Wvi-ch-LoF">
+                                <rect key="frame" x="154" y="381" width="118" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="SZq-Fm-kt1">
+                                <rect key="frame" x="276" y="381" width="118" height="134"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6x-b7-eCa">
+                                <rect key="frame" x="133" y="44" width="148" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jEh-4H-fDx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Teg-zC-ZPq">
+                                <rect key="frame" x="157" y="92" width="101" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="hXx-En-jmy">
+                                <rect key="frame" x="20" y="634.5" width="118" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="134" id="o7m-Vw-bpT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="oKW-D6-NfH">
+                                <rect key="frame" x="154" y="634.5" width="118" height="134"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flintstone" translatesAutoresizingMaskIntoConstraints="NO" id="WiB-Do-kOk">
+                                <rect key="frame" x="276" y="634.5" width="118" height="134"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Highscore: 0 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F50-cg-cau">
+                                <rect key="frame" x="138" y="823" width="192" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PyF-75-r4G" firstAttribute="bottom" secondItem="Wvi-ch-LoF" secondAttribute="bottom" id="2Xm-SI-hxm"/>
+                            <constraint firstItem="PyF-75-r4G" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2tO-fh-skK"/>
+                            <constraint firstItem="Teg-zC-ZPq" firstAttribute="centerX" secondItem="F50-cg-cau" secondAttribute="centerX" id="5l7-4O-JVn"/>
+                            <constraint firstItem="Teg-zC-ZPq" firstAttribute="trailing" secondItem="F50-cg-cau" secondAttribute="trailing" id="74d-O9-lcE"/>
+                            <constraint firstItem="EeI-IC-d0c" firstAttribute="bottom" secondItem="z3e-vq-tV2" secondAttribute="bottom" id="9ms-4X-XUq"/>
+                            <constraint firstItem="SZq-Fm-kt1" firstAttribute="leading" secondItem="WiB-Do-kOk" secondAttribute="leading" id="9uk-wj-02o"/>
+                            <constraint firstItem="R6x-b7-eCa" firstAttribute="centerX" secondItem="Teg-zC-ZPq" secondAttribute="centerX" id="BYr-7J-6cU"/>
+                            <constraint firstItem="Wvi-ch-LoF" firstAttribute="top" secondItem="SZq-Fm-kt1" secondAttribute="top" id="DUd-uX-uwl"/>
+                            <constraint firstItem="R6x-b7-eCa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Der-1e-6XS"/>
+                            <constraint firstItem="vzy-rG-VQk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="F2U-jq-CGk"/>
+                            <constraint firstItem="vzy-rG-VQk" firstAttribute="top" secondItem="R6x-b7-eCa" secondAttribute="bottom" constant="63" id="FpW-zP-7ci"/>
+                            <constraint firstItem="oKW-D6-NfH" firstAttribute="top" secondItem="WiB-Do-kOk" secondAttribute="top" id="G8d-t4-UoX"/>
+                            <constraint firstItem="R6x-b7-eCa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="Hhy-CJ-AUW"/>
+                            <constraint firstItem="F50-cg-cau" firstAttribute="top" secondItem="oKW-D6-NfH" secondAttribute="bottom" constant="58" id="I0z-TJ-bxD"/>
+                            <constraint firstItem="z3e-vq-tV2" firstAttribute="leading" secondItem="EeI-IC-d0c" secondAttribute="trailing" constant="4" id="IC1-Ny-uIS"/>
+                            <constraint firstItem="Wvi-ch-LoF" firstAttribute="leading" secondItem="PyF-75-r4G" secondAttribute="trailing" constant="17" id="IWz-z2-tOH"/>
+                            <constraint firstItem="SZq-Fm-kt1" firstAttribute="trailing" secondItem="WiB-Do-kOk" secondAttribute="trailing" id="JY3-Y6-eVf"/>
+                            <constraint firstItem="vzy-rG-VQk" firstAttribute="leading" secondItem="hXx-En-jmy" secondAttribute="leading" id="KyG-sH-Bby"/>
+                            <constraint firstItem="hXx-En-jmy" firstAttribute="bottom" secondItem="oKW-D6-NfH" secondAttribute="bottom" id="LMW-U7-HHH"/>
+                            <constraint firstItem="R6x-b7-eCa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LMu-kp-u1b"/>
+                            <constraint firstItem="EeI-IC-d0c" firstAttribute="leading" secondItem="vzy-rG-VQk" secondAttribute="trailing" constant="16" id="Ovn-Ad-3tR"/>
+                            <constraint firstItem="vzy-rG-VQk" firstAttribute="bottom" secondItem="EeI-IC-d0c" secondAttribute="bottom" id="SDh-r8-QEc"/>
+                            <constraint firstItem="z3e-vq-tV2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TXd-fU-iLK"/>
+                            <constraint firstItem="EeI-IC-d0c" firstAttribute="top" secondItem="Teg-zC-ZPq" secondAttribute="bottom" constant="30" id="XXL-Na-DHL"/>
+                            <constraint firstItem="hXx-En-jmy" firstAttribute="top" secondItem="oKW-D6-NfH" secondAttribute="top" id="YpJ-rR-lab"/>
+                            <constraint firstItem="vzy-rG-VQk" firstAttribute="trailing" secondItem="hXx-En-jmy" secondAttribute="trailing" id="aXd-NU-z4M"/>
+                            <constraint firstItem="oKW-D6-NfH" firstAttribute="bottom" secondItem="WiB-Do-kOk" secondAttribute="bottom" id="awP-WW-h8w"/>
+                            <constraint firstItem="vzy-rG-VQk" firstAttribute="top" secondItem="EeI-IC-d0c" secondAttribute="top" id="gPL-Da-335"/>
+                            <constraint firstItem="Wvi-ch-LoF" firstAttribute="bottom" secondItem="SZq-Fm-kt1" secondAttribute="bottom" id="hgm-MX-P5T"/>
+                            <constraint firstItem="EeI-IC-d0c" firstAttribute="leading" secondItem="Wvi-ch-LoF" secondAttribute="leading" id="ieY-Ff-hSb"/>
+                            <constraint firstItem="Teg-zC-ZPq" firstAttribute="top" secondItem="R6x-b7-eCa" secondAttribute="bottom" constant="8" id="ikn-Ym-ym1"/>
+                            <constraint firstItem="z3e-vq-tV2" firstAttribute="leading" secondItem="SZq-Fm-kt1" secondAttribute="leading" id="lCs-AA-MRH"/>
+                            <constraint firstItem="PyF-75-r4G" firstAttribute="top" secondItem="Wvi-ch-LoF" secondAttribute="top" id="nv0-FL-Opj"/>
+                            <constraint firstItem="EeI-IC-d0c" firstAttribute="trailing" secondItem="Wvi-ch-LoF" secondAttribute="trailing" id="osB-Vh-f0d"/>
+                            <constraint firstItem="EeI-IC-d0c" firstAttribute="top" secondItem="z3e-vq-tV2" secondAttribute="top" id="pxI-CG-fFS"/>
+                            <constraint firstItem="Wvi-ch-LoF" firstAttribute="trailing" secondItem="oKW-D6-NfH" secondAttribute="trailing" id="rKp-5w-jdQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="F50-cg-cau" secondAttribute="bottom" constant="16" id="uXj-Lw-A40"/>
+                            <constraint firstItem="PyF-75-r4G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="ufk-V4-H5L"/>
+                            <constraint firstItem="z3e-vq-tV2" firstAttribute="trailing" secondItem="SZq-Fm-kt1" secondAttribute="trailing" id="urE-WC-ucR"/>
+                            <constraint firstItem="Wvi-ch-LoF" firstAttribute="leading" secondItem="oKW-D6-NfH" secondAttribute="leading" id="w0n-F0-TOH"/>
+                            <constraint firstItem="Teg-zC-ZPq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="y8Q-zT-QgN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Fred1" destination="vzy-rG-VQk" id="Nzq-mR-xvv"/>
+                        <outlet property="Fred2" destination="EeI-IC-d0c" id="U8h-OV-VEa"/>
+                        <outlet property="Fred3" destination="z3e-vq-tV2" id="yJd-LU-0bF"/>
+                        <outlet property="Fred4" destination="PyF-75-r4G" id="f8u-rT-90R"/>
+                        <outlet property="Fred5" destination="Wvi-ch-LoF" id="dZe-UJ-sB5"/>
+                        <outlet property="Fred6" destination="SZq-Fm-kt1" id="gT8-IV-xkG"/>
+                        <outlet property="Fred7" destination="hXx-En-jmy" id="92B-Zp-2ox"/>
+                        <outlet property="Fred8" destination="oKW-D6-NfH" id="mLl-bP-e1D"/>
+                        <outlet property="Fred9" destination="WiB-Do-kOk" id="P3c-lB-8LT"/>
+                        <outlet property="HighscoreLabel" destination="F50-cg-cau" id="M3V-G0-5fN"/>
+                        <outlet property="ScoreLabel" destination="Teg-zC-ZPq" id="lir-3x-goO"/>
+                        <outlet property="TimeLabel" destination="R6x-b7-eCa" id="F07-si-UuI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flintstone" width="172" height="292"/>
+    </resources>
+</document>

@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8591ADF27A0858A0037874E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8591ADE27A0858A0037874E /* AppDelegate.swift */; };
+		B8591AE127A0858A0037874E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8591AE027A0858A0037874E /* SceneDelegate.swift */; };
+		B8591AE327A0858A0037874E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8591AE227A0858A0037874E /* ViewController.swift */; };
+		B8591AE627A0858A0037874E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8591AE427A0858A0037874E /* Main.storyboard */; };
+		B8591AE827A0858B0037874E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8591AE727A0858B0037874E /* Assets.xcassets */; };
+		B8591AEB27A0858B0037874E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8591AE927A0858B0037874E /* LaunchScreen.storyboard */; };
+		B8591AF627A0858B0037874E /* CatchTheFlintstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8591AF527A0858B0037874E /* CatchTheFlintstoneTests.swift */; };
+		B8591B0127A0858B0037874E /* CatchTheFlintstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8591B0027A0858B0037874E /* CatchTheFlintstoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8591AF227A0858B0037874E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8591AD327A0858A0037874E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8591ADA27A0858A0037874E;
+			remoteInfo = CatchTheFlintstone;
+		};
+		B8591AFD27A0858B0037874E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8591AD327A0858A0037874E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8591ADA27A0858A0037874E;
+			remoteInfo = CatchTheFlintstone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8591ADB27A0858A0037874E /* CatchTheFlintstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheFlintstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8591ADE27A0858A0037874E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8591AE027A0858A0037874E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8591AE227A0858A0037874E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8591AE527A0858A0037874E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8591AE727A0858B0037874E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8591AEA27A0858B0037874E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8591AEC27A0858B0037874E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8591AF127A0858B0037874E /* CatchTheFlintstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheFlintstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8591AF527A0858B0037874E /* CatchTheFlintstoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheFlintstoneTests.swift; sourceTree = "<group>"; };
+		B8591AF727A0858B0037874E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8591AFC27A0858B0037874E /* CatchTheFlintstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheFlintstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8591B0027A0858B0037874E /* CatchTheFlintstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheFlintstoneUITests.swift; sourceTree = "<group>"; };
+		B8591B0227A0858B0037874E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8591AD827A0858A0037874E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8591AEE27A0858B0037874E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8591AF927A0858B0037874E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8591AD227A0858A0037874E = {
+			isa = PBXGroup;
+			children = (
+				B8591ADD27A0858A0037874E /* CatchTheFlintstone */,
+				B8591AF427A0858B0037874E /* CatchTheFlintstoneTests */,
+				B8591AFF27A0858B0037874E /* CatchTheFlintstoneUITests */,
+				B8591ADC27A0858A0037874E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8591ADC27A0858A0037874E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8591ADB27A0858A0037874E /* CatchTheFlintstone.app */,
+				B8591AF127A0858B0037874E /* CatchTheFlintstoneTests.xctest */,
+				B8591AFC27A0858B0037874E /* CatchTheFlintstoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8591ADD27A0858A0037874E /* CatchTheFlintstone */ = {
+			isa = PBXGroup;
+			children = (
+				B8591ADE27A0858A0037874E /* AppDelegate.swift */,
+				B8591AE027A0858A0037874E /* SceneDelegate.swift */,
+				B8591AE227A0858A0037874E /* ViewController.swift */,
+				B8591AE427A0858A0037874E /* Main.storyboard */,
+				B8591AE727A0858B0037874E /* Assets.xcassets */,
+				B8591AE927A0858B0037874E /* LaunchScreen.storyboard */,
+				B8591AEC27A0858B0037874E /* Info.plist */,
+			);
+			path = CatchTheFlintstone;
+			sourceTree = "<group>";
+		};
+		B8591AF427A0858B0037874E /* CatchTheFlintstoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8591AF527A0858B0037874E /* CatchTheFlintstoneTests.swift */,
+				B8591AF727A0858B0037874E /* Info.plist */,
+			);
+			path = CatchTheFlintstoneTests;
+			sourceTree = "<group>";
+		};
+		B8591AFF27A0858B0037874E /* CatchTheFlintstoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8591B0027A0858B0037874E /* CatchTheFlintstoneUITests.swift */,
+				B8591B0227A0858B0037874E /* Info.plist */,
+			);
+			path = CatchTheFlintstoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8591ADA27A0858A0037874E /* CatchTheFlintstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8591B0527A0858B0037874E /* Build configuration list for PBXNativeTarget "CatchTheFlintstone" */;
+			buildPhases = (
+				B8591AD727A0858A0037874E /* Sources */,
+				B8591AD827A0858A0037874E /* Frameworks */,
+				B8591AD927A0858A0037874E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheFlintstone;
+			productName = CatchTheFlintstone;
+			productReference = B8591ADB27A0858A0037874E /* CatchTheFlintstone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8591AF027A0858B0037874E /* CatchTheFlintstoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8591B0827A0858B0037874E /* Build configuration list for PBXNativeTarget "CatchTheFlintstoneTests" */;
+			buildPhases = (
+				B8591AED27A0858B0037874E /* Sources */,
+				B8591AEE27A0858B0037874E /* Frameworks */,
+				B8591AEF27A0858B0037874E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8591AF327A0858B0037874E /* PBXTargetDependency */,
+			);
+			name = CatchTheFlintstoneTests;
+			productName = CatchTheFlintstoneTests;
+			productReference = B8591AF127A0858B0037874E /* CatchTheFlintstoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8591AFB27A0858B0037874E /* CatchTheFlintstoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8591B0B27A0858B0037874E /* Build configuration list for PBXNativeTarget "CatchTheFlintstoneUITests" */;
+			buildPhases = (
+				B8591AF827A0858B0037874E /* Sources */,
+				B8591AF927A0858B0037874E /* Frameworks */,
+				B8591AFA27A0858B0037874E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8591AFE27A0858B0037874E /* PBXTargetDependency */,
+			);
+			name = CatchTheFlintstoneUITests;
+			productName = CatchTheFlintstoneUITests;
+			productReference = B8591AFC27A0858B0037874E /* CatchTheFlintstoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8591AD327A0858A0037874E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = MSUBASI;
+				TargetAttributes = {
+					B8591ADA27A0858A0037874E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B8591AF027A0858B0037874E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B8591ADA27A0858A0037874E;
+					};
+					B8591AFB27A0858B0037874E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B8591ADA27A0858A0037874E;
+					};
+				};
+			};
+			buildConfigurationList = B8591AD627A0858A0037874E /* Build configuration list for PBXProject "CatchTheFlintstone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8591AD227A0858A0037874E;
+			productRefGroup = B8591ADC27A0858A0037874E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8591ADA27A0858A0037874E /* CatchTheFlintstone */,
+				B8591AF027A0858B0037874E /* CatchTheFlintstoneTests */,
+				B8591AFB27A0858B0037874E /* CatchTheFlintstoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8591AD927A0858A0037874E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8591AEB27A0858B0037874E /* LaunchScreen.storyboard in Resources */,
+				B8591AE827A0858B0037874E /* Assets.xcassets in Resources */,
+				B8591AE627A0858A0037874E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8591AEF27A0858B0037874E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8591AFA27A0858B0037874E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8591AD727A0858A0037874E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8591AE327A0858A0037874E /* ViewController.swift in Sources */,
+				B8591ADF27A0858A0037874E /* AppDelegate.swift in Sources */,
+				B8591AE127A0858A0037874E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8591AED27A0858B0037874E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8591AF627A0858B0037874E /* CatchTheFlintstoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8591AF827A0858B0037874E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8591B0127A0858B0037874E /* CatchTheFlintstoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8591AF327A0858B0037874E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8591ADA27A0858A0037874E /* CatchTheFlintstone */;
+			targetProxy = B8591AF227A0858B0037874E /* PBXContainerItemProxy */;
+		};
+		B8591AFE27A0858B0037874E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8591ADA27A0858A0037874E /* CatchTheFlintstone */;
+			targetProxy = B8591AFD27A0858B0037874E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8591AE427A0858A0037874E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8591AE527A0858A0037874E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8591AE927A0858B0037874E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8591AEA27A0858B0037874E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8591B0327A0858B0037874E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8591B0427A0858B0037874E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8591B0627A0858B0037874E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = CatchTheFlintstone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.CatchTheFlintstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8591B0727A0858B0037874E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = CatchTheFlintstone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.CatchTheFlintstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8591B0927A0858B0037874E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = CatchTheFlintstoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.CatchTheFlintstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheFlintstone.app/CatchTheFlintstone";
+			};
+			name = Debug;
+		};
+		B8591B0A27A0858B0037874E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = CatchTheFlintstoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.CatchTheFlintstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheFlintstone.app/CatchTheFlintstone";
+			};
+			name = Release;
+		};
+		B8591B0C27A0858B0037874E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = CatchTheFlintstoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.CatchTheFlintstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheFlintstone;
+			};
+			name = Debug;
+		};
+		B8591B0D27A0858B0037874E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3VBH47ZG2;
+				INFOPLIST_FILE = CatchTheFlintstoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MS.CatchTheFlintstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheFlintstone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8591AD627A0858A0037874E /* Build configuration list for PBXProject "CatchTheFlintstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8591B0327A0858B0037874E /* Debug */,
+				B8591B0427A0858B0037874E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8591B0527A0858B0037874E /* Build configuration list for PBXNativeTarget "CatchTheFlintstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8591B0627A0858B0037874E /* Debug */,
+				B8591B0727A0858B0037874E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8591B0827A0858B0037874E /* Build configuration list for PBXNativeTarget "CatchTheFlintstoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8591B0927A0858B0037874E /* Debug */,
+				B8591B0A27A0858B0037874E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8591B0B27A0858B0037874E /* Build configuration list for PBXNativeTarget "CatchTheFlintstoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8591B0C27A0858B0037874E /* Debug */,
+				B8591B0D27A0858B0037874E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8591AD327A0858A0037874E /* Project object */;
+}
